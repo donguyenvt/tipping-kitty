@@ -22,8 +22,8 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [x] Implementation of a completely new keypad
-- [x] Implementation of Split Bill function
+- [x] Implementing a completely new keypad.
+- [x] Implementing Split Bill function.
 
 ## Video Walkthrough 
 
@@ -40,6 +40,8 @@ Challenges encountered while building the app:
 - Work on the app user interface is quite time consuming.
 - The numeric keypad looks simple but needs to handle with extra carefullness.
 - Deciding on when and where to set and get the NSUserDefaults is not an easy job.
+- My intention is to support screen rotation i.e. in landscape display, the keypad and navigation bar is on one side, all other is on the other side. But it is far more difficult for a newbie :)
+- Not enough time to implement the feature 'press and hold' for the '-' and '+' buttons. Without this feature, the app would disappoint a certain number of users - including me.
 
 ## License
 
